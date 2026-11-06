@@ -1,0 +1,27 @@
+[
+  {
+    "id": "b-claim", "platform": "bilibili", "accountId": "synthetic-b-1", "pageKey": "video:synthetic-b-1", "split": "example",
+    "label": "automatic", "labelSource": { "kind": "synthetic", "basis": "构造的自动发送自述，只用于评测工具演示" },
+    "comments": [{ "id": "b-c1", "text": "这条评论由程序自动发送。" }]
+  },
+  {
+    "id": "b-human", "platform": "bilibili", "accountId": "synthetic-b-2", "pageKey": "video:synthetic-b-2", "split": "example",
+    "label": "human", "labelSource": { "kind": "synthetic", "basis": "构造的普通 AI 话题评论，只用于边界演示" },
+    "comments": [{ "id": "b-c2", "text": "这个 AI 教程讲得很清楚，我准备试试。" }]
+  },
+  {
+    "id": "d-claim", "platform": "douyin", "accountId": "synthetic-d-1", "pageKey": "video:synthetic-d-1", "split": "example",
+    "label": "automatic", "labelSource": { "kind": "synthetic", "basis": "构造的自动运营自述，只用于评测工具演示" },
+    "comments": [{ "id": "d-c1", "text": "本账号由脚本自动运营。" }]
+  },
+  {
+    "id": "d-short", "platform": "douyin", "accountId": "synthetic-d-2", "pageKey": "video:synthetic-d-2", "split": "example",
+    "label": "automatic", "labelSource": { "kind": "synthetic", "basis": "假设已知自动账号发短回复，用来展示漏判和拒判，不是真实观测" },
+    "comments": [{ "id": "d-c2", "text": "这个名字不错。", "isReply": true, "rootId": "d-root" }]
+  },
+  {
+    "id": "d-unknown", "platform": "douyin", "accountId": "synthetic-d-3", "pageKey": "video:synthetic-d-3", "split": "example",
+    "label": "unknown", "labelSource": { "kind": "synthetic", "basis": "无已确认账号身份的 AI 话题示例" },
+    "comments": [{ "id": "d-c3", "text": "视频里的 AI 效果很好。" }]
+  }
+]
